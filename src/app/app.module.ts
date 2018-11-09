@@ -3,14 +3,17 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { GplinkModule } from '../../projects/gplink/src/lib/gplink.module';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    // GplinkPipe
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    GplinkModule
   ],
   providers: [],
   bootstrap: [AppComponent]
