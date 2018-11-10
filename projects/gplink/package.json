@@ -1,14 +1,10 @@
 {
   "name": "gplink",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a Angular Library which provide pipe to convert the url, email and mobile number to link format by using linkifyjs. ",
   "keywords" :["Angular","Library","Linkifyjs","gp","pipe","link","anchor"],
   "author": "Govindsinh",
   "license" : "MIT",
-  "repository": {
-    "type" : "git",
-    "url" : "https://github.com/t-palmer/ng-example-library"
-  },
   "dependencies": {
     "linkifyjs": "^2.1.7"
   },

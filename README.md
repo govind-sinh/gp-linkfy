@@ -22,5 +22,3 @@ If you regular expression is like this, \+?\d[\d -]{8,12}\d, then convert it lik
 \\+?\\d[\\d -]{8,12}\\d.
 If you not provide any reg-ex then it will not convert any mobile numbers to clickable except indian mobile number format.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
