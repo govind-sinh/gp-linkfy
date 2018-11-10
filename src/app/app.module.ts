@@ -1,15 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-
 import { AppComponent } from './app.component';
-import { GplinkModule } from '../../projects/gplink/src/lib/gplink.module';
-
+import { GplinkModule } from 'gplink';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    // GplinkPipe
+    AppComponent
   ],
   imports: [
     BrowserModule,

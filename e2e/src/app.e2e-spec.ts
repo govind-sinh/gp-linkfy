@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('gp-linkify App', () => {
+describe('workspace-project App', () => {
   let page: AppPage;
 
   beforeEach(() => {
@@ -9,6 +9,6 @@ describe('gp-linkify App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to gp-lj!');
+    expect(page.getParagraphText()).toEqual('Welcome to gp-linkify-test-app!');
   });
 });
